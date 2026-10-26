@@ -1,0 +1,421 @@
+{
+  "config": {
+    "qiskit": "2.6.1",
+    "qiskit_aer": "0.18.0",
+    "training_backend": "Aer statevector",
+    "shot_backend": "Aer counts",
+    "aer_reference_max_error": 7.216449660063518e-16,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "qubits": 3,
+    "depth": 2,
+    "steps": 220,
+    "noise_sigma": 0.15,
+    "keep_prior": 0.8,
+    "ridge": 0.001,
+    "probability_floor": 0.02,
+    "scale": 3.0,
+    "gradient_max_error": 3.2523653908933525e-12,
+    "conditional_posterior_kl": 111.92974826772547,
+    "mc_max_mean_error": 0.000697901111404442,
+    "elapsed_seconds": 93.34208609999769
+  },
+  "metrics": [
+    {
+      "seed": 11,
+      "method": "Deterministic",
+      "region": "support",
+      "rmse": 0.15252866194095888,
+      "nll": -0.46118161360344617,
+      "coverage": 0.9281045751633987,
+      "width": 0.5879888360975062
+    },
+    {
+      "seed": 11,
+      "method": "Deterministic",
+      "region": "gap",
+      "rmse": 0.1832254099139908,
+      "nll": -0.23214698861120944,
+      "coverage": 0.875,
+      "width": 0.5879888360974918
+    },
+    {
+      "seed": 11,
+      "method": "Deterministic",
+      "region": "extrapolation",
+      "rmse": 0.3908018293434173,
+      "nll": 2.415731210944602,
+      "coverage": 0.49166666666666664,
+      "width": 0.5879888360975014
+    },
+    {
+      "seed": 11,
+      "method": "Fixed dropout",
+      "region": "support",
+      "rmse": 0.35257617796781543,
+      "nll": 0.3791656629605859,
+      "coverage": 0.9673202614379085,
+      "width": 1.354039094410229
+    },
+    {
+      "seed": 11,
+      "method": "Fixed dropout",
+      "region": "gap",
+      "rmse": 0.30214329542341267,
+      "nll": 0.1936499982097415,
+      "coverage": 0.9791666666666666,
+      "width": 1.1632865350588795
+    },
+    {
+      "seed": 11,
+      "method": "Fixed dropout",
+      "region": "extrapolation",
+      "rmse": 0.6496861816041221,
+      "nll": 1.3636120386371566,
+      "coverage": 0.75,
+      "width": 1.4658792703851191
+    },
+    {
+      "seed": 11,
+      "method": "Free rates",
+      "region": "support",
+      "rmse": 0.1648882896802789,
+      "nll": -0.34819427257282154,
+      "coverage": 1.0,
+      "width": 0.9590271156350618
+    },
+    {
+      "seed": 11,
+      "method": "Free rates",
+      "region": "gap",
+      "rmse": 0.1913078140266741,
+      "nll": -0.23594027406275742,
+      "coverage": 0.9791666666666666,
+      "width": 0.8883907962527541
+    },
+    {
+      "seed": 11,
+      "method": "Free rates",
+      "region": "extrapolation",
+      "rmse": 0.36754779181275055,
+      "nll": 0.7719996175347634,
+      "coverage": 0.8666666666666667,
+      "width": 1.066015836532562
+    },
+    {
+      "seed": 11,
+      "method": "PCE",
+      "region": "support",
+      "rmse": 0.2651845888177352,
+      "nll": 0.1510267640321734,
+      "coverage": 0.9934640522875817,
+      "width": 1.2909518523472534
+    },
+    {
+      "seed": 11,
+      "method": "PCE",
+      "region": "gap",
+      "rmse": 0.22399008352986283,
+      "nll": -0.04900879595232247,
+      "coverage": 0.9791666666666666,
+      "width": 1.1912012862794155
+    },
+    {
+      "seed": 11,
+      "method": "PCE",
+      "region": "extrapolation",
+      "rmse": 0.6412342626161748,
+      "nll": 1.6870205438585961,
+      "coverage": 0.6666666666666666,
+      "width": 1.3900808913952707
+    },
+    {
+      "seed": 29,
+      "method": "Deterministic",
+      "region": "support",
+      "rmse": 0.1566645287554714,
+      "nll": -0.432764239010677,
+      "coverage": 0.9281045751633987,
+      "width": 0.5879888360975023
+    },
+    {
+      "seed": 29,
+      "method": "Deterministic",
+      "region": "gap",
+      "rmse": 0.1944459618553453,
+      "nll": -0.13797629430675504,
+      "coverage": 0.875,
+      "width": 0.5879888360975065
+    },
+    {
+      "seed": 29,
+      "method": "Deterministic",
+      "region": "extrapolation",
+      "rmse": 0.5216034038221561,
+      "nll": 5.067821012293441,
+      "coverage": 0.5416666666666666,
+      "width": 0.5879888360975074
+    },
+    {
+      "seed": 29,
+      "method": "Fixed dropout",
+      "region": "support",
+      "rmse": 0.3417808935333892,
+      "nll": 0.3306883201730666,
+      "coverage": 0.9673202614379085,
+      "width": 1.4242888639286477
+    },
+    {
+      "seed": 29,
+      "method": "Fixed dropout",
+      "region": "gap",
+      "rmse": 0.24889804241318852,
+      "nll": 0.03637594511079859,
+      "coverage": 1.0,
+      "width": 1.2561024815852968
+    },
+    {
+      "seed": 29,
+      "method": "Fixed dropout",
+      "region": "extrapolation",
+      "rmse": 0.5310959677270217,
+      "nll": 0.9317734117127154,
+      "coverage": 0.9416666666666667,
+      "width": 1.5412966207772305
+    },
+    {
+      "seed": 29,
+      "method": "Free rates",
+      "region": "support",
+      "rmse": 0.1614356061196943,
+      "nll": -0.35966529630564154,
+      "coverage": 0.9934640522875817,
+      "width": 1.0069352662411193
+    },
+    {
+      "seed": 29,
+      "method": "Free rates",
+      "region": "gap",
+      "rmse": 0.14541711197066615,
+      "nll": -0.4365712170345226,
+      "coverage": 1.0,
+      "width": 0.9400865204844088
+    },
+    {
+      "seed": 29,
+      "method": "Free rates",
+      "region": "extrapolation",
+      "rmse": 0.3796273014957149,
+      "nll": 0.6485058698764362,
+      "coverage": 0.8833333333333333,
+      "width": 1.1181148286668994
+    },
+    {
+      "seed": 29,
+      "method": "PCE",
+      "region": "support",
+      "rmse": 0.23710044884618184,
+      "nll": 0.014073408926116813,
+      "coverage": 1.0,
+      "width": 1.3457412332998149
+    },
+    {
+      "seed": 29,
+      "method": "PCE",
+      "region": "gap",
+      "rmse": 0.17742726215778631,
+      "nll": -0.18896198423929014,
+      "coverage": 1.0,
+      "width": 1.3293954900184441
+    },
+    {
+      "seed": 29,
+      "method": "PCE",
+      "region": "extrapolation",
+      "rmse": 0.4030134599056428,
+      "nll": 0.7169945291066845,
+      "coverage": 0.9666666666666667,
+      "width": 1.4412954368692923
+    },
+    {
+      "seed": 47,
+      "method": "Deterministic",
+      "region": "support",
+      "rmse": 0.14332162354806757,
+      "nll": -0.5217128344266752,
+      "coverage": 0.9738562091503268,
+      "width": 0.5879888360974963
+    },
+    {
+      "seed": 47,
+      "method": "Deterministic",
+      "region": "gap",
+      "rmse": 0.19062347520150175,
+      "nll": -0.17068568950570698,
+      "coverage": 0.8541666666666666,
+      "width": 0.5879888360974911
+    },
+    {
+      "seed": 47,
+      "method": "Deterministic",
+      "region": "extrapolation",
+      "rmse": 0.6590929453639799,
+      "nll": 8.675229895620264,
+      "coverage": 0.35,
+      "width": 0.5879888360975062
+    },
+    {
+      "seed": 47,
+      "method": "Fixed dropout",
+      "region": "support",
+      "rmse": 0.35761095020472466,
+      "nll": 0.36463103687734527,
+      "coverage": 0.9803921568627451,
+      "width": 1.386170950080956
+    },
+    {
+      "seed": 47,
+      "method": "Fixed dropout",
+      "region": "gap",
+      "rmse": 0.29628148519627673,
+      "nll": 0.16113218854655523,
+      "coverage": 0.9583333333333334,
+      "width": 1.198699829886023
+    },
+    {
+      "seed": 47,
+      "method": "Fixed dropout",
+      "region": "extrapolation",
+      "rmse": 0.6444478261159514,
+      "nll": 1.3147035974614056,
+      "coverage": 0.7833333333333333,
+      "width": 1.500861998366913
+    },
+    {
+      "seed": 47,
+      "method": "Free rates",
+      "region": "support",
+      "rmse": 0.15522003255771002,
+      "nll": -0.3876179058857132,
+      "coverage": 1.0,
+      "width": 0.9849626809191873
+    },
+    {
+      "seed": 47,
+      "method": "Free rates",
+      "region": "gap",
+      "rmse": 0.18995799389821827,
+      "nll": -0.21771786405293805,
+      "coverage": 0.9583333333333334,
+      "width": 0.9457200572894676
+    },
+    {
+      "seed": 47,
+      "method": "Free rates",
+      "region": "extrapolation",
+      "rmse": 0.39032030738341905,
+      "nll": 0.6041177113975919,
+      "coverage": 0.8583333333333333,
+      "width": 1.109266807726174
+    },
+    {
+      "seed": 47,
+      "method": "PCE",
+      "region": "support",
+      "rmse": 0.2769071632906819,
+      "nll": 0.12935389685300444,
+      "coverage": 0.9673202614379085,
+      "width": 1.2636550529088169
+    },
+    {
+      "seed": 47,
+      "method": "PCE",
+      "region": "gap",
+      "rmse": 0.19892056355164173,
+      "nll": -0.15979522629143275,
+      "coverage": 1.0,
+      "width": 1.18670523313825
+    },
+    {
+      "seed": 47,
+      "method": "PCE",
+      "region": "extrapolation",
+      "rmse": 0.6327331723302784,
+      "nll": 1.6382362572787648,
+      "coverage": 0.6583333333333333,
+      "width": 1.3638432293592901
+    }
+  ],
+  "shots": [
+    {
+      "shots_per_basis": 128,
+      "total_shots": 384,
+      "rate_rmse": 0.03474338976511835,
+      "measurement_mean_variance": [
+        6.297291394442801e-05,
+        9.105244859905865e-05
+      ],
+      "average_mask_variance": [
+        0.04380653669849811,
+        0.07172230088324659
+      ]
+    },
+    {
+      "shots_per_basis": 512,
+      "total_shots": 1536,
+      "rate_rmse": 0.017234379011398154,
+      "measurement_mean_variance": [
+        1.6436401416362623e-05,
+        2.3190404662577267e-05
+      ],
+      "average_mask_variance": [
+        0.043520247489559155,
+        0.07126940179651128
+      ]
+    },
+    {
+      "shots_per_basis": 2048,
+      "total_shots": 6144,
+      "rate_rmse": 0.008844596442136808,
+      "measurement_mean_variance": [
+        4.157991602647511e-06,
+        5.251048300761922e-06
+      ],
+      "average_mask_variance": [
+        0.043334153979880746,
+        0.07099039774446302
+      ]
+    },
+    {
+      "shots_per_basis": 8192,
+      "total_shots": 24576,
+      "rate_rmse": 0.004605848832766881,
+      "measurement_mean_variance": [
+        9.428357086121672e-07,
+        1.66209956300821e-06
+      ],
+      "average_mask_variance": [
+        0.04327587028703108,
+        0.07092463491013215
+      ]
+    }
+  ],
+  "noise": {
+    "one_qubit_depolarizing": 0.001,
+    "two_qubit_depolarizing": 0.01,
+    "readout_flip": 0.02,
+    "shots_per_basis": 2048,
+    "repeats": 40,
+    "correlator_bias_rms": 0.0692351055902218,
+    "sampling_rmse": 0.019351650608374373,
+    "mean_prediction_displacement": [
+      0.003884729009583532,
+      -0.007081509394150309
+    ]
+  }
+}
